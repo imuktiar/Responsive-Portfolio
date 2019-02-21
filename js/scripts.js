@@ -1,13 +1,16 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a7ef51cf125c11849ff30e09260d24aa2c9d397
 
 (function($) {
 
     // Remove no-js class
     $('html').removeClass('no-js');
 
-    // Animate to section when nav is clicked
     $('header a').click(function(e) {
 
-        // Treat as normal link if no-scroll class
+     
         if ($(this).hasClass('no-scroll')) return;
 
         e.preventDefault();
